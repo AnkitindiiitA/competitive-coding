@@ -57,6 +57,7 @@ int main()
     toggle(9,3);
     cout<<bitcount(9)<<endl;
     cout<<__builtin_popcount(9)<<endl;//stl function to print number of set bits;
+    cout<<__builtin_popcountll(1LL<<35)<<endl;//stl function to print number of set bits in long long;
 
     return 0;
 }

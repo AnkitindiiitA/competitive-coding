@@ -49,3 +49,6 @@ int main()
 
 //inputs==> 3 
 //          2 4 5
+
+//time complexity==> O(2^n*n);
+//use backtracking time complexity ==> 0(2^n);

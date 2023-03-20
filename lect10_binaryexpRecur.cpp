@@ -25,6 +25,20 @@ int binExpRecur(int a,int b){
     }
 }
 
+int biExpIter(int a, int b){
+    int ans=1;
+    while(b){
+        if(b&1){
+            ans=(ans*a)%M;
+        }
+        a=(a*1LL*a)%M;
+        b>>=1;
+    }
+    
+    return ans;
+}
+
+
 int main()
 {   
    int a=2,b=13;

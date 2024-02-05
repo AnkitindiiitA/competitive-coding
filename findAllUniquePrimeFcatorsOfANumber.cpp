@@ -1,4 +1,4 @@
-//time complexity=O(logn)
+//time complexity=O(sqrt(n))
 
 vector<int> countPrimes(int n)
 {
